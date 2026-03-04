@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datenschutzerklärung – Satisfying Sort</title>
+  <style>
+    :root {
+      --bg: #1a1a2e;
+      --surface: #16213e;
+      --card: #0f3460;
+      --green: #4ecca3;
+      --gold: #f5a623;
+      --accent: #e94560;
+      --text: #eaeaea;
+      --muted: rgba(234,234,234,0.55);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 0 0 60px;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 15% 15%, #0f346040 0%, transparent 55%),
+        radial-gradient(ellipse at 85% 85%, #e9456010 0%, transparent 55%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 52px 24px 36px;
+      border-bottom: 1px solid #ffffff10;
+    }
+    .app-icon {
+      font-size: 56px;
+      margin-bottom: 12px;
+      display: block;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--green), var(--gold));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 6px;
+    }
+    header p {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    /* ── MAIN ── */
+    main {
+      position: relative;
+      z-index: 1;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 24px 0;
+    }
+
+    section {
+      background: var(--surface);
+      border: 1px solid #ffffff10;
+      border-radius: 18px;
+      padding: 28px 32px;
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--green);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    section h2::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 18px;
+      background: var(--green);
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    p, li {
+      font-size: 0.93rem;
+      line-height: 1.75;
+      color: var(--muted);
+    }
+    p + p { margin-top: 10px; }
+    ul { padding-left: 20px; margin-top: 8px; }
+    li { margin-bottom: 6px; }
+
+    a {
+      color: var(--green);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+
+    .highlight {
+      background: var(--card);
+      border-left: 3px solid var(--gold);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-top: 12px;
+      font-size: 0.9rem;
+      color: var(--text);
+    }
+
+    .badge {
+      display: inline-block;
+      background: #4ecca320;
+      color: var(--green);
+      border: 1px solid #4ecca340;
+      border-radius: 20px;
+      padding: 3px 12px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    footer {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 40px 24px 0;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="app-icon">🎯</span>
+  <h1>Datenschutzerklärung</h1>
+  <p>Satisfying Sort &nbsp;·&nbsp; Stand: März 2025</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Überblick</h2>
+    <p>
+      Diese App wurde als kostenlose Anwendung entwickelt und steht als solche zur Nutzung bereit.
+      Diese Datenschutzerklärung informiert Nutzer über den Umgang mit Daten beim Verwenden der App.
+    </p>
+    <div class="highlight">
+      Die App selbst speichert <strong>keine personenbezogenen Daten</strong> und überträgt keinerlei Informationen an eigene Server. Spielstand und Highscore werden ausschließlich lokal auf deinem Gerät gespeichert.
+    </div>
+  </section>
+
+  <section>
+    <h2>Werbung durch Google AdMob <span class="badge">Drittanbieter</span></h2>
+    <p>
+      Diese App verwendet <strong>Google AdMob</strong> zur Einblendung von Werbeanzeigen.
+      AdMob ist ein Werbedienst von Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
+    </p>
+    <p>AdMob kann dabei unter anderem folgende Daten erheben und verarbeiten:</p>
+    <ul>
+      <li>Gerätekennungen (z. B. Advertising ID)</li>
+      <li>IP-Adresse</li>
+      <li>Interaktionen mit Werbeanzeigen</li>
+      <li>Geräteinformationen (Modell, Betriebssystem)</li>
+    </ul>
+    <p>
+      Diese Daten werden von Google gemäß der Google-Datenschutzerklärung verarbeitet.
+      Weitere Informationen findest du hier:
+    </p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Datenschutzerklärung</a></li>
+      <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">So funktioniert AdMob</a></li>
+      <li><a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">Werbeeinstellungen bei Google anpassen</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Lokale Datenspeicherung</h2>
+    <p>
+      Die App speichert folgende Daten ausschließlich lokal auf deinem Gerät (localStorage / App-Speicher):
+    </p>
+    <ul>
+      <li>Highscore</li>
+      <li>Abgeschlossene Level und erreichte Sterne</li>
+    </ul>
+    <p>
+      Diese Daten verlassen dein Gerät zu keinem Zeitpunkt und werden nicht an Dritte übertragen.
+      Sie können jederzeit durch Deinstallation der App oder Löschen der App-Daten entfernt werden.
+    </p>
+  </section>
+
+  <section>
+    <h2>Kinder</h2>
+    <p>
+      Diese App erfasst keinerlei personenbezogene Daten – weder von Erwachsenen noch von Kindern.
+      Sie kann daher bedenkenlos von Nutzern jedes Alters verwendet werden.
+    </p>
+    <p>
+      Die einzigen Daten, die gespeichert werden (Spielstand, Highscore), verbleiben ausschließlich
+      lokal auf dem Gerät und werden niemals übertragen oder eingesehen.
+    </p>
+  </section>
+
+  <section>
+    <h2>Änderungen dieser Datenschutzerklärung</h2>
+    <p>
+      Diese Datenschutzerklärung kann von Zeit zu Zeit aktualisiert werden.
+      Änderungen werden auf dieser Seite veröffentlicht. Es wird empfohlen,
+      diese Seite regelmäßig auf Aktualisierungen zu prüfen.
+    </p>
+  </section>
+
+  <section>
+    <h2>Kontakt</h2>
+    <p>
+      Bei Fragen zu dieser Datenschutzerklärung kannst du über den Google Play Store Kontakt aufnehmen
+      (Entwicklerseite der App &rarr; „Entwickler kontaktieren").
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>Satisfying Sort &nbsp;·&nbsp; Datenschutzerklärung &nbsp;·&nbsp; Alle Rechte vorbehalten</p>
+</footer>
+
+</body>
+</html>
